@@ -1,0 +1,9 @@
+@(
+".env"
+".env.*"
+"!.env.example"
+"node_modules/"
+"proof-used.json"
+"proof-used.json.tmp"
+"*.log"
+) | Set-Content -Path ".gitignore" -Encoding utf8
